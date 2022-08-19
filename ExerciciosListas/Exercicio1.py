@@ -2,6 +2,9 @@
 
 vetor = []
 for i in range(5):
-    vetor.append(input('Digite um número: '))
-
+    try:
+        vetor.append(int(input('Digite um número: ')))
+    except:
+        print('Digite um número inteiro!')
+        vetor.append(int(input('Digite um número: ')))
 print(vetor)
