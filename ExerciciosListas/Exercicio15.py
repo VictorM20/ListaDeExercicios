@@ -30,7 +30,8 @@ for n in num:
 print(f'Todos números: {num}')
 print('Valores na ordem inversa: ')
 num.reverse()
-print(num)
+for x in num:
+    print(x)
 print(f'Soma dos valores: {sum(num)}')
 print(f'Média dos valores: {sum(num) / len(num)}')
 print(f'Quantidade de valores acima da média calculada: {acima_media}')
