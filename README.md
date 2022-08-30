@@ -5,7 +5,7 @@ https://wiki.python.org.br/ListaDeExercicios
 * **EstruturaDeDecisao**
 * **EstruturaDeRepeticao**
 * **ExerciciosListas**
-* ExerciciosFuncoes 
+* **ExerciciosFuncoes** 
 * ExerciciosComStrings
 * ExerciciosArquivos
 * ExerciciosClasses
