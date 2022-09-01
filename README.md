@@ -6,7 +6,7 @@ https://wiki.python.org.br/ListaDeExercicios
 * **EstruturaDeRepeticao**
 * **ExerciciosListas**
 * **ExerciciosFuncoes** 
-* ExerciciosComStrings
+* **ExerciciosComStrings**
 * ExerciciosArquivos
 * ExerciciosClasses
 * ListaDeExerciciosProjetos
