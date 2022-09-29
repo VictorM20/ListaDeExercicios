@@ -8,5 +8,5 @@ https://wiki.python.org.br/ListaDeExercicios
 * **ExerciciosFuncoes** 
 * **ExerciciosComStrings**
 * **ExerciciosArquivos**
-* ExerciciosClasses
+* **ExerciciosClasses**
 * ListaDeExerciciosProjetos
