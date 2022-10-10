@@ -10,5 +10,3 @@ def criarArquivos():
         arquivo.close()
 
 criarArquivos()
-
-
