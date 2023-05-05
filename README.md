@@ -9,4 +9,4 @@ https://wiki.python.org.br/ListaDeExercicios
 * **ExerciciosComStrings**
 * **ExerciciosArquivos**
 * **ExerciciosClasses**
-* ListaDeExerciciosProjetos
+
