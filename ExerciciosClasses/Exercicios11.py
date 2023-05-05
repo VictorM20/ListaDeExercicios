@@ -10,3 +10,28 @@ meuFusca.adicionarGasolina(20); # abastece com 20 litros de combustível.
 meuFusca.andar(100);            # anda 100 quilômetros.
 meuFusca.obterGasolina()        # Imprime o combustível que resta no tanque.
 """
+
+
+class Carro:
+    def __init__(self, consumo):
+        self.consumo = consumo  # km por litro
+        self.combustivel = 0  # litros
+
+    def andar(self, distancia):
+        consumo_total = distancia / self.consumo
+        if consumo_total <= self.combustivel:
+            self.combustivel -= consumo_total
+            print(f"Andou {distancia} km.")
+        else:
+            print("Não há combustível suficiente para andar essa distância.")
+
+    def obterGasolina(self):
+        return self.combustivel
+
+    def adicionarGasolina(self, litros):
+        self.combustivel += litros
+
+meuFusca = Carro(15)  # 15 quilômetros por litro de combustível.
+meuFusca.adicionarGasolina(20)  # abastece com 20 litros de combustível.
+meuFusca.andar(100)  # anda 100 quilômetros.
+print(meuFusca.obterGasolina())  # Imprime o combustível que resta no tanque.
